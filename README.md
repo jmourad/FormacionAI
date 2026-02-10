@@ -1,52 +1,42 @@
-# FormacionAI
-Recursos, notas y proyectos prácticos sobre Inteligencia Artificial: desde fundamentos de Machine Learning hasta Large Language Models (LLMs) y Agentes. Incluye notebooks y hojas de ruta.
+# 🤖 Formación en IA: Técnica y Aplicada (Marketing, SEO & Social Media)
 
-# 🤖 Formación en Inteligencia Artificial (IA)
-
-¡Bienvenido/a a este repositorio! 🚀 Este espacio está diseñado como una guía integral para aprender, practicar y dominar los conceptos clave de la Inteligencia Artificial, desde los fundamentos estadísticos hasta la implementación de modelos de IA Generativa.
+¡Bienvenido/a! 🚀 Este repositorio es una guía completa que une dos mundos: la arquitectura técnica de la **Inteligencia Artificial** y su aplicación práctica en el **crecimiento digital (Marketing, SEO y Redes Sociales)**.
 
 ## 📌 Objetivo
-El propósito de este repositorio es centralizar recursos educativos, ejercicios prácticos en notebooks y proyectos reales para facilitar el camino de aprendizaje en el ecosistema de la IA.
+Centralizar recursos para entender cómo funciona la IA desde la base y, paralelamente, cómo ejecutar estrategias avanzadas de Marketing y contenido automatizado de alta calidad.
 
 ---
 
-## 🗺️ Ruta de Aprendizaje (Roadmap)
+## 🗺️ Rutas de Aprendizaje (Roadmaps)
 
-El contenido está organizado de forma progresiva:
+### 🧩 Bloque 1: Fundamentos Técnicos de IA
+1.  **Fundamentos:** Matemáticas básicas y estadística para datos.
+2.  **Machine Learning:** Modelos predictivos y análisis de datos con Scikit-Learn.
+3.  **Deep Learning & NLP:** Redes neuronales y procesamiento de lenguaje.
+4.  **Generative AI:** LLMs, Prompt Engineering avanzado y Agentes (LangChain).
 
-1.  **Fundamentos:** Álgebra lineal, cálculo y estadística básica.
-2.  **Machine Learning:** Regresión, clasificación, clustering y Scikit-Learn.
-3.  **Deep Learning:** Redes neuronales, Tensoflow/PyTorch y Visión Artificial.
-4.  **NLP & LLMs:** Procesamiento de lenguaje natural, Transformers y uso de APIs de OpenAI/Anthropic.
-5.  **Agentes e IA Generativa:** LangChain, RAG (Retrieval-Augmented Generation) y despliegue.
+### 📈 Bloque 2: IA para Estrategia Digital
+1.  **IA en SEO:** Automatización de Keyword Research, optimización de On-Page y análisis de intención de búsqueda con modelos de lenguaje.
+2.  **Marketing & Growth:** Personalización de audiencias, scoring de leads y analítica predictiva.
+3.  **Social Media & Contenido:** Generación masiva de activos (imagen/texto/vídeo), automatización de publicación y análisis de sentimiento.
 
 ---
 
 ## 📂 Estructura del Repositorio
 
-* `📁 teoria/`: Documentación, glosarios y conceptos fundamentales.
-* `📁 notebooks/`: Ejercicios prácticos en formato Jupyter (.ipynb).
-* `📁 proyectos/`: Casos de uso completos (Chatbots, clasificadores, etc.).
-* `📁 recursos/`: Enlaces a libros, papers y cursos recomendados.
+* `📁 teoria/`: Conceptos de IA y estrategias de Marketing Digital.
+* `📁 notebooks/`: Scripts de Python para análisis de datos y llamadas a APIs (OpenAI, etc.).
+* `📁 proyectos/`: 
+    * *Ejemplo: "Sistema de generación de contenido SEO optimizado".*
+    * *Ejemplo: "Bot de atención al cliente para Social Media".*
+* `📁 recursos/`: Listado de herramientas IA "No-Code" y frameworks técnicos.
 
 ---
 
-## 🛠️ Requisitos e Instalación
-
-Para trabajar localmente con este repositorio, se recomienda usar un entorno virtual de Python:
-
+## 🛠️ Instalación Rápida
 ```bash
-# Clonar el repositorio
 git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
-
-# Crear entorno virtual
+cd TU_REPOSITORIO
 python -m venv venv
-
-# Activar entorno (Windows)
-venv\Scripts\activate
-
-# Activar entorno (Linux/Mac)
-source venv/bin/activate
-
-# Instalar dependencias
+# Activar: venv\Scripts\activate (Win) o source venv/bin/activate (Mac/Linux)
 pip install -r requirements.txt
