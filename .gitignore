@@ -1,0 +1,39 @@
+# --- Python y Entornos ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+build/
+dist/
+
+# --- Datos y Modelos (IA) ---
+# Evita subir datasets pesados o modelos entrenados que pesen más de 100MB
+/data/
+/models/
+*.pkl
+*.npy
+*.pth
+*.h5
+
+# --- Seguridad y Privacidad (CRÍTICO) ---
+# Aquí se bloquean tus API Keys de OpenAI, Google, etc.
+.env
+.flaskenv
+secrets.json
+.secrets
+
+# --- Herramientas de Marketing/SEO ---
+# Archivos temporales de reportes o logs
+*.log
+/reports/
+/exports/*.csv
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
